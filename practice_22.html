@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <Form>
+    <h1 style="text-align: center;">Sign up form</h1>
+    <hr>
+    <br>
+    <label for="user"> Name:</label>
+    <input type="text" id="user" name="user" placeholder="user name">
+    <br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="usermail" placeholder="usermail" required>
+    <br><br>
+    <label for="pass">password:</label>
+    <input type="pass" id="pass" name="password" placeholder="password">
+    <br><br>
+    <label for="phn">phone:</label>
+    <br>
+    <select name="code" id="phn">
+        <option value="+088">+088</option>
+        <option value="+990">+990</option>
+        <option value="+110">+110</option>
+
+    </select>
+    <input type="number" id="phn" name="phone" placeholder="1234567" required>
+    <br><br>
+    <label for="country">Country</label>
+    <input list="con">
+    <detalist id="con">
+        <option value="Bangladesh"></option>
+        <option value="pakisthan"></option>
+        <option value="Canada"></option>
+    </detalist>
+
+
+    Gender:
+    <input type="radio" name="gender">
+    <label for="gnd">Male</label>
+<input type="radio" name="gender">
+<label for="gnd">Female</label>
+<br><br>
+<label for="date">Date of birth:</label>
+<Input type="date" id="date" name="dob"></Input>
+<br><br>
+<label for="time">Time</label>
+<input type="time" id="time" name="tm">
+<br><br>
+<label for="colors">Colors</label>
+<input type="color" id="colors" name="col">
+<br><br>
+<label for="file">Choose photo</label>
+<input type="file" id="file" name="fl">
+<br><br>
+<input type="checkbox" id="vehiclel" name="vec">
+<label for="vehiclel">I have bike</label>
+<input type="checkbox" id="vehicle2" name="vec">
+<label for="vehicle2">I have bycycle</label>
+<br><br>
+<textarea name="comment" cols="30" rows="10">comment here</textarea>
+<br><br>
+<input type="submit" value="send">
+<input type="reset" value="reset">
+
+
+</Form>
+
+</body>
+</html>
